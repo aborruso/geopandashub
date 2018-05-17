@@ -1,11 +1,8 @@
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - cython
   - matplotlib
   - pandas
   - geopandas
-  - pip:
-    - sphinx-gallery
-    - contextily
+  - contextily
